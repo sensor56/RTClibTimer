@@ -25,7 +25,7 @@ Chaque objet timer dispose des fonctions suivantes :
 
 Le principe d'utilisation consistera : 
 * à lancer le timer avec les paramètres voulus à l'aide de la fonction start(),
-* à appeler la fonction service() du timer au sein de la fonction loop(). Cette fonction service() assure la gestion interne du timer RTC. Noter que la fonction service reçoit en paramètre une fonction qui sera appelé lorsque l'événement timer surviendra ce qui permet de personnaliser à loisir les actions à effectuer. La fonction appelée recevra en paramètre l'index du timer utilisé, ce qui permettra de personnaliser l'action à effectuer par timer. Au final, souplesse maximale. 
+* à appeler la fonction service() du timer au sein de la fonction loop(). Cette fonction service() assure la gestion interne du timer RTC. Noter que la fonction service reçoit en paramètre une fonction qui sera appelée lorsque l'événement timer surviendra ce qui permet de personnaliser à loisir les actions à effectuer. La fonction appelée recevra en paramètre l'index du timer utilisé, ce qui permettra de personnaliser l'action à effectuer par timer. Au final, souplesse maximale. 
 * à afficher l'état des paramètres du timer RTC à tout moment avec la fonction status()
 * à stopper le timer au besoin avec la fonction stop() 
 
