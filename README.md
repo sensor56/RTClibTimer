@@ -1,7 +1,7 @@
-RTCLibTimer
+RTClibTimer
 ===========
 
-Ma librairie RTCLibTimer est une surcouche à la librairie « temps-réel » RTCLib et permet d'implémenter facilement des objets « timers temps-réel » (ou « timers RTC »). Le nombre de timers utilisable simultanément n'est pas limité par la librairie.
+Ma librairie RTClibTimer est une surcouche à la librairie « temps-réel » RTClib et permet d'implémenter facilement des objets « timers temps-réel » (ou « timers RTC »). Le nombre de timers utilisable simultanément n'est pas limité par la librairie.
 
 Chaque objet timer RTC dispose des paramètres suivants : 
 * boolean etat;  // variable d'état du timer - true/false actif/inactif
